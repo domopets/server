@@ -28,6 +28,7 @@ function moduleSocket(module) {
 
   socket.on("disconnect", () => {
     io.to("mobiles").emit("leave", id)
+    delete modules[id]
   })
 }
 
