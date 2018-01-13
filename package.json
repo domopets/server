@@ -1,0 +1,26 @@
+{
+  "name": "domopets-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domopets/server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domopets/server/issues"
+  },
+  "homepage": "https://github.com/domopets/server#readme",
+  "dependencies": {
+    "knex": "^0.14.2",
+    "pg": "^7.4.1",
+    "shortid": "^2.2.8",
+    "socket.io": "^2.0.4"
+  }
+}
